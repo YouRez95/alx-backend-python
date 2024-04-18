@@ -12,4 +12,4 @@ def concat(str1: str, str2: str) -> str:
         str1: first str
         str2: second str
     """
-    return '{} {}'.format(str1, str2)
+    return '{}{}'.format(str1, str2)
