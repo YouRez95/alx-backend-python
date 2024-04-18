@@ -6,7 +6,7 @@
 import math
 
 
-def to_tsr(n: float) -> str:
+def to_str(n: float) -> str:
     """
       function that returns the string representation of n
       Args:
