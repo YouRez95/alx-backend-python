@@ -6,9 +6,10 @@
 """
 import random
 import asyncio
+from typing import AsyncGenerator
 
 
-async def async_generator():
+async def async_generator() -> AsyncGenerator[float, float]:
     """
       The coroutine will loop 10 times,
       each time asynchronously wait 1 second,
