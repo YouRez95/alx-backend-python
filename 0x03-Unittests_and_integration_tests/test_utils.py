@@ -69,6 +69,9 @@ class TestMemoize(unittest.TestCase):
             wrapper class
         """
         class TestClass:
+            '''
+                testClass
+            '''
             def a_method(self):
                 return 42
 
